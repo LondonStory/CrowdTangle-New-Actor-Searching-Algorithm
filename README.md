@@ -1,0 +1,2 @@
+# CrowdTangle-New-Actor-Searching-Algorithm
+The algorithm begins with a CrowdTangle data, identifies the list of unique actors and most shared links. Afterwards by using the /posts/search endpoint of CrowdTangle, the algorithm searches the entire CrowdTangle database, where the most shared links are used as inputs. Thus, we retrieve new actors who are connected through these links or URLs, either via share, comment, description etc.  
